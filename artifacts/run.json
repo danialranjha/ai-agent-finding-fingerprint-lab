@@ -1,0 +1,1699 @@
+{
+  "schema": 1,
+  "scope": "inert source and supplied metadata; no detector or model",
+  "case_count": 10,
+  "method_count": 3,
+  "paired_comparisons": 30,
+  "rows": [
+    {
+      "case": "unchanged",
+      "family": "ordinary twin",
+      "method": "line_position",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "unchanged",
+      "family": "ordinary twin",
+      "method": "function_text",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "unchanged",
+      "family": "ordinary twin",
+      "method": "structural",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "leading_comments",
+      "family": "line shift only",
+      "method": "line_position",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "after": {
+        "source": "# one\n# two\n# three\ndef check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 5,
+          "function_start": 4,
+          "function_end": 6,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          5
+        ],
+        "digest": "90225c059ad0e9993cd00632f0fa6f898527da79e0ca57a2981ee6b29c7141b1"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "leading_comments",
+      "family": "line shift only",
+      "method": "function_text",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "after": {
+        "source": "# one\n# two\n# three\ndef check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 5,
+          "function_start": 4,
+          "function_end": 6,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "leading_comments",
+      "family": "line shift only",
+      "method": "structural",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "after": {
+        "source": "# one\n# two\n# three\ndef check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 5,
+          "function_start": 4,
+          "function_end": 6,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "body_comment",
+      "family": "comment after supplied site",
+      "method": "line_position",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    # note\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 4,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    # note\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "body_comment",
+      "family": "comment after supplied site",
+      "method": "function_text",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    # note\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 4,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    # note\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "be6e31104019d2ed8109665ce6485d9302c446b55af459cc79265181d41ec002"
+        ],
+        "digest": "08f3e10eaf772f7ff2e660ace9ff47fb0b7b5219850ab63e364ca27bc3f3672b"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "body_comment",
+      "family": "comment after supplied site",
+      "method": "structural",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    # note\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 4,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    # note\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "formatting",
+      "family": "whitespace in supplied statement",
+      "method": "line_position",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record( \"SITE_A\",  note )\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record( \"SITE_A\",  note )\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "formatting",
+      "family": "whitespace in supplied statement",
+      "method": "function_text",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record( \"SITE_A\",  note )\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record( \"SITE_A\",  note )\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "a56ecafe0b2e3b3d77dd7b245ed12e8fa17c785ec6b06c8ef18eab67bfc79ee7"
+        ],
+        "digest": "c99a03d51d2d309482eb737205654d08820d5e05d4a8429aefb39e715a21fa9e"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "formatting",
+      "family": "whitespace in supplied statement",
+      "method": "structural",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record( \"SITE_A\",  note )\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record( \"SITE_A\",  note )\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "path_alias",
+      "family": "lexically equivalent relative path",
+      "method": "line_position",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "./src/tmp/../notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "path_alias",
+      "family": "lexically equivalent relative path",
+      "method": "function_text",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "./src/tmp/../notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "path_alias",
+      "family": "lexically equivalent relative path",
+      "method": "structural",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "./src/tmp/../notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "renamed_symbol",
+      "family": "structural distinction",
+      "method": "line_position",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "after": {
+        "source": "def review_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "review_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def review_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "review_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "575211ab1f2e4fc0fc1b4f160867c74f4613218bd51f9d1970efe9d15b93c53c"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "renamed_symbol",
+      "family": "structural distinction",
+      "method": "function_text",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "after": {
+        "source": "def review_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "review_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def review_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "review_note",
+          "FIXTURE-CLASS-A",
+          "7d8ea8846493b4c22c6d1dc4d035fa4fcfdcaccb0d531d57ae797485af1fa2e7"
+        ],
+        "digest": "817165b1f70488b64a5c82613fb7cde88bbcc4bf3681a6115614c846bbfbe229"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "renamed_symbol",
+      "family": "structural distinction",
+      "method": "structural",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "after": {
+        "source": "def review_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "review_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def review_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "review_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "2ad6c85ac2ded4e78ba91b28a835850ff07f54a7d71b2039073ca45d2ef8ed9c"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "moved_file",
+      "family": "structural distinction",
+      "method": "line_position",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "lib/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "lib/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "7b853863976556d29d1b2f3a3d35d9536aaa4eaadc8e19858ef8e333e9714757"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "moved_file",
+      "family": "structural distinction",
+      "method": "function_text",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "lib/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "lib/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "e8d840375c38d61f177d7e28f9d2858ac3dad98a86a05a688f6c523ea43fe5a0"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "moved_file",
+      "family": "structural distinction",
+      "method": "structural",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "lib/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "lib/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a6316f02b1b2cf21c869a323942a0dc79398179c0711d20b2b7c3093315de837"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "changed_class",
+      "family": "structural distinction",
+      "method": "line_position",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-B",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-B",
+          2
+        ],
+        "digest": "341315207024dc6a8ab47c0c65824c8138a69573b8824193ed2375e449297880"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "changed_class",
+      "family": "structural distinction",
+      "method": "function_text",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-B",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-B",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "bab4decdaf235b678bbe960283684263b8cd90f2b0ef0b95a1219402fe1a1bb6"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "changed_class",
+      "family": "structural distinction",
+      "method": "structural",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-B",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-B"
+        ],
+        "digest": "e763996971a97adf520c8503a37685e67a8bf3ae084bd88bcb11a6e63d46effe"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "changed_body",
+      "family": "same metadata with different body, no verdict inference",
+      "method": "line_position",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", str(note))\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", str(note))\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "changed_body",
+      "family": "same metadata with different body, no verdict inference",
+      "method": "function_text",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "f946092fb74fc76c1441200722c35ffe2dc6d0c9a9a29eaeffe21a8605aaba38"
+        ],
+        "digest": "0bccb95c9a0f2341bd025eab356a9f009250c23831c1dbeccd22b1dcfcfb8ca6"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", str(note))\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", str(note))\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "79f4b89524474af0cb96e2ee99cee4e5a9a47c42cd27bbe23465cf55b03f7795"
+        ],
+        "digest": "c7fd0dcc9b993ac0885321406ba6bbc84feb0d4804e9e6c941c4c96251e6f2d3"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "changed_body",
+      "family": "same metadata with different body, no verdict inference",
+      "method": "structural",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", str(note))\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 3,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", str(note))\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "two_sites",
+      "family": "different supplied sites in one function/class",
+      "method": "line_position",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 4,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          2
+        ],
+        "digest": "b1bdec556b3270c8331f43e4b182775709fd3cf94732afd2d32bbecc9cd233e0"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_B",
+        "location": {
+          "line": 3,
+          "function_start": 1,
+          "function_end": 4,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          3
+        ],
+        "digest": "4ba9cb352a88cc8851518cd62bfbf9102752b5e5d3588c92ee25a773d53b143d"
+      },
+      "equal": false,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "CREATE",
+          "record_id": "record-2"
+        }
+      ],
+      "record_count": 2
+    },
+    {
+      "case": "two_sites",
+      "family": "different supplied sites in one function/class",
+      "method": "function_text",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 4,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "2f095402c86678bd38fa38914f636fff2cb0e21ae94abab104b961aeb62a8ffc"
+        ],
+        "digest": "4cf64edcd962a7e0a207bf3a977cc8eb38ed3c675a0ee06ea8aac36ff92c5da4"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_B",
+        "location": {
+          "line": 3,
+          "function_start": 1,
+          "function_end": 4,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A",
+          "2f095402c86678bd38fa38914f636fff2cb0e21ae94abab104b961aeb62a8ffc"
+        ],
+        "digest": "4cf64edcd962a7e0a207bf3a977cc8eb38ed3c675a0ee06ea8aac36ff92c5da4"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    },
+    {
+      "case": "two_sites",
+      "family": "different supplied sites in one function/class",
+      "method": "structural",
+      "before": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_A",
+        "location": {
+          "line": 2,
+          "function_start": 1,
+          "function_end": 4,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "after": {
+        "source": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n",
+        "path": "src/notes.py",
+        "symbol": "check_note",
+        "weakness_class": "FIXTURE-CLASS-A",
+        "site": "SITE_B",
+        "location": {
+          "line": 3,
+          "function_start": 1,
+          "function_end": 4,
+          "function_text": "def check_note(note):\n    record(\"SITE_A\", note)\n    record(\"SITE_B\", note)\n    return note\n"
+        },
+        "components": [
+          "src/notes.py",
+          "check_note",
+          "FIXTURE-CLASS-A"
+        ],
+        "digest": "a1deba71deb57b1b2c5e65a336437506e707bd1c176df40e013d106417f3b018"
+      },
+      "equal": true,
+      "events": [
+        {
+          "event": "CREATE",
+          "record_id": "record-1"
+        },
+        {
+          "event": "UPDATE",
+          "record_id": "record-1"
+        }
+      ],
+      "record_count": 1
+    }
+  ]
+}

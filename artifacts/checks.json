@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "tests": 12,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "mutations": [
+    {
+      "name": "put_line_in_structural_key",
+      "tests": 12,
+      "failures": 4,
+      "errors": 0,
+      "skipped": 0,
+      "detected": true
+    },
+    {
+      "name": "omit_weakness_class",
+      "tests": 12,
+      "failures": 5,
+      "errors": 0,
+      "skipped": 0,
+      "detected": true
+    }
+  ]
+}

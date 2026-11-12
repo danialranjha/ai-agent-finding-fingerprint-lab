@@ -1,0 +1,25 @@
+{
+  "source_repository": "https://github.com/CiscoDevNet/foundry-security-spec",
+  "commit": "c770bf7764265dda188d9a270b1105a4bb62759b",
+  "files": [
+    {
+      "path": "constitution.md",
+      "git_blob_sha": "8d0cf8b771476b6573f4d4ea79fde547bdb76200",
+      "sha256": "1cde1a9e42e17b3c6d38177b0997f51be267b30980388de056add6fe4fe84c13",
+      "url": "https://github.com/CiscoDevNet/foundry-security-spec/blob/c770bf7764265dda188d9a270b1105a4bb62759b/constitution.md"
+    },
+    {
+      "path": "spec.md",
+      "git_blob_sha": "c12ed66eeb03b07f05bb05f65b726e72201eb678",
+      "sha256": "730efaf1b3c73424dfd499edec007ab0a2f62ef785211ec0bef89141bef8cdd5",
+      "url": "https://github.com/CiscoDevNet/foundry-security-spec/blob/c770bf7764265dda188d9a270b1105a4bb62759b/spec.md"
+    }
+  ],
+  "selected_requirements": [
+    "Constitution VIII",
+    "FR-090",
+    "FR-091"
+  ],
+  "scope_note": "Independent implementation of selected fingerprint tuple. No upstream code copied. FR-058 distinguishes prior true-positive findings from current conclusions; no verdict inheritance implemented.",
+  "fixture_note": "Invented source strings, weakness classes, markers and local issue records. AST only; source never executed."
+}
